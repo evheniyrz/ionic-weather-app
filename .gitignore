@@ -68,3 +68,30 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Environment variables
+.env
+.env.*.local
+
+# Capacitor Android artefacts
+android/.gradle/
+android/app/build/
+
+# Android SDK path (local properties)
+android/local.properties
+
+# Android build cache
+/android/.gradle/
+
+
+# Capacitor iOS build
+ios/Pods/
+ios/build/
+
+
+# exclude signingKeys
+android/app/*.keystore
+
+# Xcode workspace
+ios/*.xcworkspace
+
