@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">ionic-weather-app</string>
-    <string name="title_activity_main">ionic-weather-app</string>
-    <string name="package_name">io.ionic.starter</string>
-    <string name="custom_url_scheme">io.ionic.starter</string>
+    <string name="app_name">Fancy Weather</string>
+    <string name="title_activity_main">Fancy Weather</string>
+    <string name="package_name">com.evgeniy.weather</string>
+    <string name="custom_url_scheme">com.evgeniy.weather</string>
 </resources>

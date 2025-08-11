@@ -77,6 +77,13 @@ Thumbs.db
 android/.gradle/
 android/app/build/
 
+# Backup & temp files
+*.orig
+*.bak
+*.tmp
+*.swp
+
+
 # Android SDK path (local properties)
 android/local.properties
 

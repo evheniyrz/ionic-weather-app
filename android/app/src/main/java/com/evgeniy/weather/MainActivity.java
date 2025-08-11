@@ -1,4 +1,4 @@
-package io.ionic.starter;
+package com.evgeniy.weather;
 
 import com.getcapacitor.BridgeActivity;
 

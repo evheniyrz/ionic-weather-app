@@ -1,10 +1,22 @@
 import { Component } from '@angular/core';
-import { IonApp, IonRouterOutlet } from '@ionic/angular/standalone';
+import {
+  IonApp,
+  IonRouterOutlet,
+  IonFooter,
+  IonContent,
+} from '@ionic/angular/standalone';
+import { NavigationBarComponent } from './shared/UI/navigation-bar/navigation-bar.component';
 
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
-  imports: [IonApp, IonRouterOutlet],
+  imports: [
+    IonContent,
+    IonFooter,
+    IonApp,
+    IonRouterOutlet,
+    NavigationBarComponent,
+  ],
 })
 export class AppComponent {
   constructor() {}

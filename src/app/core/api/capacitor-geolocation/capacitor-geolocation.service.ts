@@ -15,5 +15,6 @@ export class CapacitorGeolocationService {
     }
 
     const coords = await Geolocation.getCurrentPosition();
+    return coords;
   }
 }
